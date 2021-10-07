@@ -6,7 +6,7 @@ import { TOUCH_CONSTANTS } from "./constants/touch.constants";
 import * as CryptoJS from "crypto-js";
 import { WordArray } from "crypto-js";
 import { TouchSecureStorage } from "./storage/touch.storage";
-import { AFAEncryptResponse } from "@ionic-native/android-fingerprint-auth/ngx";
+import { AFAEncryptResponse } from "@ionic-native/android-fingerprint-auth";
 import { Credentials } from "./interfaces/credentials.interface";
 import { ErrorHandler } from "./handlers/error.handler";
 import { TouchError } from "./models/touch.error";

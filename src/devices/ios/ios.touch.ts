@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { TouchID } from "@ionic-native/touch-id/ngx";
+import { TouchID } from "@ionic-native/touch-id";
 import { DeviceInterface } from "../../interfaces/device.interface";
 import { TOUCH_CONSTANTS, TOUCH_ERROR_RESPONSE } from "../../constants/touch.constants";
 import { TouchError } from '../../models/touch.error';

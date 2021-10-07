@@ -5,10 +5,7 @@
   "main": "lib/public_api.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
-    "build": "tsc",
-    "prepare": "npm run build",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -39,18 +36,13 @@
     "typescript": "3.5.3",
     "zone.js": "^0.8.4"
   },
-  "peerDependencies": {
-    "@ionic-native/android-fingerprint-auth": "^5.36.0",
-    "@ionic-native/secure-storage": "^5.36.0",
-    "@ionic-native/touch-id": "^5.36.0",
+  "dependencies": {
+    "@ionic-native/android-fingerprint-auth": "^4.9.0",
+    "@ionic-native/secure-storage": "^4.9.0",
+    "@ionic-native/touch-id": "^4.9.0",
     "cordova-plugin-android-fingerprint-auth": "^1.4.4",
     "cordova-plugin-secure-storage-echo": "5.0.1",
     "cordova-plugin-touch-id": "^3.3.1",
     "crypto-js": "^3.1.9-1"
-  },
-  "dependencies": {
-    "@ionic-native/android-fingerprint-auth": "^5.36.0",
-    "@ionic-native/secure-storage": "^5.36.0",
-    "@ionic-native/touch-id": "^5.36.0"
   }
 }
